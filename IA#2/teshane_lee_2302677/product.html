@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - My Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Our Products</h2>
+    <div class="product-container">
+        <!-- Example of a product card, repeat for each product (9 total) -->
+        <div class="product">
+            <img src="images/shirt1.jpg" alt="Shirt 1">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <!-- Add 8 more product cards like this -->
+    </div>
+
+    <button onclick="checkout()">Checkout</button>
+    <button onclick="cancel()">Cancel</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
